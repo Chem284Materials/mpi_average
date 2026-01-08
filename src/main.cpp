@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 
-int main(int argc, char **argv) {
+int main(int argc, char *argv[]) {
   int N = 200000000;
 
   // Initialize a
@@ -30,6 +30,6 @@ int main(int argc, char **argv) {
   }
 
   std::cout.precision(12);
-  std::cout << "Average: " << average << std::endl;
+  std::cout << "Average: " << average << '\n';
   return 0;
 }
