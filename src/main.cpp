@@ -18,7 +18,7 @@ int main(int argc, char *argv[]) {
     b[i] = 1.0 + double(i);
   }
 
-  // Add the two arrays
+  // Add the two vectors
   for (int i=0; i<N; i++) {
     a[i] = a[i] + b[i];
   }
